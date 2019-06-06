@@ -64,6 +64,7 @@
 - [Tiobe index](https://www.tiobe.com/tiobe-index/)
 - [RebelLabs Developer Productivity Report 2017: Why do you use the Java tools you use](https://zeroturnaround.com/rebellabs/developer-productivity-report-2017-why-do-you-use-java-tools-you-use/)
 - [The State of Java in 2018](https://www.baeldung.com/java-in-2018)
+- [2018 JDK, Tools, Platform and Application, processes and you reports](https://snyk.io/blog/jvm-ecosystem-report-2018/)
 
 ### ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 6. <a href="https://drive.google.com/open?id=0B9Ye2auQ_NsFSlZMTXBJRXJpakU">Maven.</a>
 - Среда сборки проектов <a href="http://www.apache-maven.ru/" target="_blank">Maven</a>.
