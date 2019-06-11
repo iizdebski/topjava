@@ -112,6 +112,7 @@
 ```
 - Наше приложение: [http://localhost:8080/topjava](http://localhost:8080/topjava)
 - Наш сервлет:     [http://localhost:8080/topjava/users](http://localhost:8080/topjava/users)
+- [Настройки Remote Debug в новой IDEA](https://github.com/JavaOPs/topjava/wiki/IDEA#remote-debug-в-новой-idea/)
 - Справочник:
   - [HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP)
   - <a href="http://info.javarush.ru/idea_help/2014/01/22/Руководство-пользователя-IntelliJ-IDEA-Отладчик-.html">Отладчик IntelliJ IDEA</a>
