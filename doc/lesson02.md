@@ -111,7 +111,7 @@
 Вообще, как правило, возвращают `List`, если не просится по коду более общий случай (например возможный `Set` или `Collection`, возвращаемый `Map.values()`). Если возвращается отсортированный список, то `List` будет адекватнее.
 
 ###  ![video](https://cloud.githubusercontent.com/assets/13649199/13672715/06dbc6ce-e6e7-11e5-81a9-04fbddb9e488.png) 5. <a href="https://drive.google.com/open?id=14XPypWzxYdjxir6dGTjqTOCBZUu_Jy3C">Обзор  Spring Framework. Spring Context.</a>
->  [Видео про миграцию на Spring 5](http://javaops.ru/view/resources/spring5) у нас будет позже. Изменения сейчас - [Spring Framework 5.0 comes with its own Commons Logging bridge out of the box](https://github.com/spring-projects/spring-framework/wiki/What's-New-in-Spring-Framework-5.x):
+>  [Видео про миграцию на Spring 5](http://javaops.ru/view/resources/spring5) у нас будет позже. Изменения в логгировании - [Spring Framework 5.0 comes with its own Commons Logging bridge out of the box](https://github.com/spring-projects/spring-framework/wiki/What's-New-in-Spring-Framework-5.x):
 >  - spring-jcl instead of standard Commons Logging
 >  - Autodetecting Log4j 2.x, SLF4J, JUL (java.util.logging) without any extra bridges. 
 
