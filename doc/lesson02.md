@@ -13,7 +13,8 @@
 > - Изменения в `MealsUtil`:
 >    - Сделал константу `List<Meal> MEALS`
 >    - Сделал вспомогательный метод `getWithExcess`. Для фильтрации передаю реализацию `Predicate` (см. паттерн [Стратегия](https://refactoring.guru/ru/design-patterns/strategy))
-> - Форматирование даты сделал на основе <a href="http://stackoverflow.com/questions/35606551/jstl-localdatetime-format#35607225">JSTL LocalDateTime format</a>
+> - Форматирование даты сделал на основе <a href="http://stackoverflow.com/questions/35606551/jstl-localdatetime-format#35607225"> Custom EL function</a>
+>    - [Create a custom Function for JSTL через tag library descriptor (TLD)](http://findnerd.com/list/view/How-to-create-a-custom-Function-for-JSTL/2869/)
 > - Переименовал `TimeUtil` в `DateTimeUtil`
 > - Переименовал `mealList.jsp` в `meals.jsp`
 > - Добавил еще один способ вывести `dateTime` через стандартную JSTL функцию `replace`  (префикс `fn` в шапке также надо поменять)
