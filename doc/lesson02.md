@@ -211,7 +211,7 @@
 - 8: добавить выбор текущего залогиненного пользователя (имитация авторизации, сделать Select с двумя элементами со значениями 1 и 2 в `index.html` и `SecurityUtil.setAuthUserId(userId)` в `UserServlet`).
 Настоящая атворизация будет через Spring Security позже.
 ---------------------
-### ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Подсказки по HW02 (для проверки, сначала сделайте самостоятельно!)
+### ![error](https://cloud.githubusercontent.com/assets/13649199/13672935/ef09ec1e-e6e7-11e5-9f79-d1641c05cbe6.png) Типичные ошибки и советы по реализации
 
 - 1: **В реализации `InMemoryUserRepositoryImpl`**
   - 1.1: `getByEmail` попробуйте сделать через `stream`
