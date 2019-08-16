@@ -81,7 +81,7 @@ class AdminRestControllerTest extends AbstractControllerTest {
         User expected = new User(null, "New", "new@gmail.com", "newPass",  2300, Role.ROLE_USER, Role.ROLE_ADMIN);
         ResultActions action = mockMvc.perform(MockMvcRequestBuilders.post(REST_URL)
                 .contentType(MediaType.APPLICATION_JSON)
-                .content(JsonUtil.writeValue(expected)))
+                .content(jsonWithPassword(expected, "newPass")))
                 .andExpect(status().isCreated());
 
         User returned = readFromJson(action, User.class);
